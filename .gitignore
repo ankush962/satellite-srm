@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+data/raw/
+data/processed/
+*.tif
+*.tiff
+*.jp2
+
+# ML outputs
+checkpoints/
+weights/
+*.pth
+*.pt
+*.ckpt
+
+# Experiment outputs
+experiments/runs/
+experiments/logs/
+
+# Environment variables
+.env

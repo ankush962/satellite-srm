@@ -1,0 +1,21 @@
+{
+    "results": [
+        {
+            "method": "Bicubic",
+            "mse": 0.0002007694379426539,
+            "psnr_db": 36.9730239682106,
+            "ssim": 0.9452883134356567
+        },
+        {
+            "method": "ResidualSR",
+            "mse": 0.0001262520148884505,
+            "psnr_db": 38.98761682136406,
+            "ssim": 0.9640116180479527
+        }
+    ],
+    "improvement_over_bicubic": {
+        "mse_improvement_percent": 37.11591954323642,
+        "psnr_improvement_db": 2.0145928531534594,
+        "ssim_improvement": 0.018723304612295988
+    }
+}

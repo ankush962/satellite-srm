@@ -1,0 +1,21 @@
+{
+    "results": [
+        {
+            "method": "Bicubic",
+            "mse": 0.0002008406815929035,
+            "psnr_db": 36.97148313430261,
+            "ssim": 0.9452905654907227
+        },
+        {
+            "method": "Baseline CNN",
+            "mse": 0.00015187423041949333,
+            "psnr_db": 38.18515909718776,
+            "ssim": 0.9600183963775635
+        }
+    ],
+    "improvement_over_bicubic": {
+        "mse_improvement_percent": 24.38074337581831,
+        "psnr_improvement_db": 1.213675962885148,
+        "ssim_improvement": 0.01472783088684082
+    }
+}
